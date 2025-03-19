@@ -19,6 +19,9 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         f"*=== Daftar Perintah Bot ===* \n"
         "1. /start   : Memulai Perbincangan \n"
         "2. /help    : Menampilkan Daftar Perintah \n"
+        "--- Tambah Data --- \n"
+        "3. /tambahdata     : Menambahkan data \n"
+        "4. /cancel         : Membatalkan perintah"
     )
 
     await update.message.reply_text(
